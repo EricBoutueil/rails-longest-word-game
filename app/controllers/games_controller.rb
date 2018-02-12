@@ -7,5 +7,6 @@ class GamesController < ApplicationController
 
   def score
     @play = params[:play]
+    # binding.pry
   end
 end
